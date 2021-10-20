@@ -24,6 +24,7 @@
             body {
                 display: flex;
                 align-items: center;
+                flex-direction: column;
                 font-family: sans-serif;
                 justify-content: center;
             }
@@ -32,9 +33,15 @@
                 font-size: 1.125rem;
                 line-height: 1.5rem;
             }
+            #message {
+                color: green;
+                font-size: 0.875rem;
+                line-height: 1.5rem;
+            }
         </style>
     </head>
     <body>
         <h1 id="title">string placeholder</h1>
+        <p id="message">*This is your generated password</p>
     </body>
 </html>
